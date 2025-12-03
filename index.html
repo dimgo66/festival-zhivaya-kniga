@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Международный фестиваль детских (школьных) и юношеских театральных коллективов «Живая книга» имени Валерия Карловича Бегунова. Основан в 2018 году. Участие бесплатное.">
+    <meta name="keywords" content="фестиваль, детский театр, живая книга, театральные коллективы, София Агачер, Бегунов">
+    <meta name="author" content="София Агачер">
+    <meta property="og:title" content="Фестиваль «Живая книга» им. В.К. Бегунова">
+    <meta property="og:description" content="Международный фестиваль детских и юношеских театральных коллективов">
+    <meta property="og:image" content="images/logo-festival.png">
+    <title>Фестиваль «Живая книга» им. В.К. Бегунова</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/logo-festival.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    
+    <!-- AOS Library CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <img src="images/logo-festival.png" alt="Логотип фестиваля Живая книга">
+            </div>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Главная</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">О фестивале</a></li>
+                    <li class="nav__item"><a href="#nominations" class="nav__link">Номинации</a></li>
+                    <li class="nav__item"><a href="#participate" class="nav__link">Участие</a></li>
+                    <li class="nav__item"><a href="#results" class="nav__link">Итоги</a></li>
+                    <li class="nav__item"><a href="#sofia" class="nav__link">О Софии Агачер</a></li>
+                    <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <h1 class="hero__title" data-aos="fade-up">
+                        Фестиваль детских (школьных) и юношеских<br>
+                        театральных коллективов<br>
+                        <span class="hero__title-highlight">«Живая книга»</span><br>
+                        <span class="hero__subtitle">имени Валерия Карловича Бегунова</span>
+                    </h1>
+                    <blockquote class="hero__quote" data-aos="fade-up" data-aos-delay="200">
+                        «Люди разучились играть, и поэтому совершают жестокие и бессмысленные поступки. Но мы с тобой не разучимся. Я тебе обещаю. И если мир что-то спасёт — это будут детские игры!»
+                    </blockquote>
+                    <p class="hero__author" data-aos="fade-up" data-aos-delay="300">
+                        — Бабушка Соня, пьеса «Грустный телевизор»
+                    </p>
+                    <div class="hero__buttons" data-aos="fade-up" data-aos-delay="400">
+                        <a href="#participate" class="btn btn-primary">Подать заявку</a>
+                        <a href="#videos" class="btn btn-secondary">Смотреть видео</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero__decoration"></div>
+        </section>
+
+        <!-- About Festival -->
+        <section class="about section" id="about">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">О фестивале</h2>
+                <div class="about__content">
+                    <div class="about__text" data-aos="fade-right">
+                        <p class="about__description">
+                            Фестиваль «Живая книга» был основан в <strong>2018 году</strong> и сейчас проходит в двух направлениях:
+                        </p>
+                        <div class="about__directions">
+                            <div class="direction-card" data-aos="fade-up" data-aos-delay="100">
+                                <div class="direction-card__icon">
+                                    <i class="fas fa-theater-masks"></i>
+                                </div>
+                                <h3 class="direction-card__title">Сценический фестиваль</h3>
+                                <p class="direction-card__text">
+                                    Участники представляют свои спектакли на сцене Московского Дома Книги на Арбате
+                                </p>
+                            </div>
+                            <div class="direction-card" data-aos="fade-up" data-aos-delay="200">
+                                <div class="direction-card__icon">
+                                    <i class="fas fa-microphone"></i>
+                                </div>
+                                <h3 class="direction-card__title">Фестиваль аудиоспектаклей</h3>
+                                <p class="direction-card__text">
+                                    Лучшие аудиоспектакли транслируются на различных радио- и интернет-площадках под рубрикой «Фестиваль "Живая книга" у микрофона!»
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about__info" data-aos="fade-left">
+                        <div class="info-box">
+                            <h3 class="info-box__title">Специальные пьесы</h3>
+                            <p class="info-box__text">
+                                Специально для детских театральных коллективов-участников фестиваля Софией Агачер и Львом Яковлевым было написано четыре пьесы по мотивам книги «Рассказы о Ромке и его бабушке».
+                            </p>
+                            <a href="https://ridero.ru/books/catalog/?offset=0&q=%D0%96%D0%B8%D0%B2%D0%B0%D1%8F+%D0%BA%D0%BD%D0%B8%D0%B3%D0%B0+%D0%A1%D0%BE%D1%84%D0%B8%D1%8F+%D0%90%D0%B3%D0%B0%D1%87%D0%B5%D1%80" class="btn btn-link" target="_blank" rel="noopener">
+                                <i class="fas fa-download"></i> Скачать сборник пьес бесплатно
+                            </a>
+                        </div>
+                        
+                        <div class="info-box">
+                            <h3 class="info-box__title">Имя В.К. Бегунова</h3>
+                            <p class="info-box__text">
+                                В августе 2023 года по инициативе Гильдии драматургов РФ фестивалю «Живая книга» присвоено имя его первого Председателя жюри — известного драматурга, поэта, театрального критика <strong>Валерия Карловича Бегунова</strong> (1948–2023).
+                            </p>
+                        </div>
+                        
+                        <div class="info-box">
+                            <h3 class="info-box__title">Эмблема фестиваля</h3>
+                            <p class="info-box__text">
+                                Фестиваль имеет свою оригинальную эмблему. Детские театры могут представлять и другие пьесы, заявленные и принятые к постановке по решению жюри фестиваля.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nominations -->
+        <section class="nominations section" id="nominations">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Номинации фестиваля</h2>
+                <div class="nominations__grid">
+                    <div class="nomination-card" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="nomination-card__icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <h3 class="nomination-card__title">Лучший спектакль</h3>
+                        <p class="nomination-card__description">Определяется жюри фестиваля</p>
+                    </div>
+                    
+                    <div class="nomination-card" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="nomination-card__icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3 class="nomination-card__title">Лучший исполнитель</h3>
+                        <p class="nomination-card__description">За выдающееся актёрское мастерство</p>
+                    </div>
+                    
+                    <div class="nomination-card" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="nomination-card__icon">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="nomination-card__title">Лучшая импровизация</h3>
+                        <p class="nomination-card__description">Лучшая сценическая импровизация литературного произведения</p>
+                    </div>
+                    
+                    <div class="nomination-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="nomination-card__icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h3 class="nomination-card__title">Приз зрительских симпатий</h3>
+                        <p class="nomination-card__description">По результатам прямого голосования зрителей</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Participation -->
+        <section class="participate section" id="participate">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Как принять участие</h2>
+                
+                <div class="participate__tabs">
+                    <div class="tabs__header">
+                        <button class="tab__button active" data-tab="scenic">Сценический фестиваль</button>
+                        <button class="tab__button" data-tab="audio">Аудиоспектакли</button>
+                    </div>
+                    
+                    <!-- Scenic Festival Tab -->
+                    <div class="tab__content active" id="scenic">
+                        <div class="participate__content" data-aos="fade-up">
+                            <div class="participate__info">
+                                <h3 class="participate__subtitle">Сценический фестиваль 2024</h3>
+                                <ul class="info-list">
+                                    <li><i class="fas fa-calendar-check"></i> <strong>Подача заявок:</strong> до 15 октября 2024 года</li>
+                                    <li><i class="fas fa-calendar-alt"></i> <strong>Проведение:</strong> октябрь-ноябрь 2024 года</li>
+                                    <li><i class="fas fa-map-marker-alt"></i> <strong>Место:</strong> Московский Дом Книги на Арбате</li>
+                                    <li><i class="fas fa-gift"></i> <strong>Участие:</strong> бесплатное</li>
+                                    <li><i class="fas fa-award"></i> <strong>Призы:</strong> памятные призы всем участникам, сюрпризы от спонсоров победителям</li>
+                                </ul>
+                                
+                                <div class="participate__requirements">
+                                    <h4>Требования к заявке:</h4>
+                                    <ul>
+                                        <li>Заявка в произвольной форме</li>
+                                        <li>Фотографии участников театрального коллектива</li>
+                                        <li>Видеозаписи спектаклей и репетиций (опционально)</li>
+                                        <li>Информация о коллективе и спектакле</li>
+                                    </ul>
+                                </div>
+                                
+                                <a href="mailto:info@agacher.com" class="btn btn-primary btn-large">
+                                    <i class="fas fa-envelope"></i> Подать заявку на участие
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Audio Festival Tab -->
+                    <div class="tab__content" id="audio">
+                        <div class="participate__content" data-aos="fade-up">
+                            <div class="participate__info">
+                                <h3 class="participate__subtitle">Фестиваль аудиоспектаклей 2024</h3>
+                                <ul class="info-list">
+                                    <li><i class="fas fa-calendar-check"></i> <strong>Приём работ:</strong> с 1 февраля по 1 ноября 2024 года</li>
+                                    <li><i class="fas fa-calendar-alt"></i> <strong>Финал:</strong> декабрь 2024 года</li>
+                                    <li><i class="fas fa-radio"></i> <strong>Трансляция:</strong> радио «Антология» в новогодней передаче</li>
+                                    <li><i class="fas fa-gift"></i> <strong>Участие:</strong> бесплатное</li>
+                                </ul>
+                                
+                                <div class="participate__requirements">
+                                    <h4>Требования к подаче:</h4>
+                                    <ul>
+                                        <li>Аудиоспектакль в формате MP3</li>
+                                        <li>Информация о театральном коллективе</li>
+                                        <li>Список исполнителей</li>
+                                        <li>Текст аудиоспектакля</li>
+                                        <li>Разрешение от автора (кроме произведений С. Агачер)</li>
+                                        <li>Разрешение от родителей на трансляцию</li>
+                                        <li>Фотографии участников (опционально)</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="info-box--highlight">
+                                    <i class="fas fa-info-circle"></i>
+                                    <p><strong>Важно:</strong> Лучшие аудиоспектакли могут транслироваться в СМИ и на публичных площадках, а также изданы отдельной аудиокнигой на безгонорарной основе.</p>
+                                </div>
+                                
+                                <a href="mailto:info@agacher.com" class="btn btn-primary btn-large">
+                                    <i class="fas fa-envelope"></i> Отправить аудиоспектакль
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jury -->
+        <section class="jury section">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Жюри фестиваля</h2>
+                <div class="jury__content" data-aos="fade-up" data-aos-delay="100">
+                    <div class="jury__chair">
+                        <div class="jury__icon">
+                            <i class="fas fa-gavel"></i>
+                        </div>
+                        <h3 class="jury__title">Председатель жюри</h3>
+                        <p class="jury__name">Бутунин Юрий Алексеевич</p>
+                        <p class="jury__position">Режиссёр, драматург, журналист, главный редактор журнала «ДрамТеатр»</p>
+                    </div>
+                    <div class="jury__members">
+                        <h4>Члены жюри</h4>
+                        <p>Известные писатели, драматурги, актёры</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos -->
+        <section class="videos section" id="videos">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Видео с фестивалей</h2>
+                <div class="videos__grid">
+                    <div class="video-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="video-card__wrapper">
+                            <iframe src="https://www.youtube.com/embed/4RjbrAxiOWU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <h3 class="video-card__title">Финал фестиваля 2019</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results -->
+        <section class="results section" id="results">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Итоги прошлых лет</h2>
+                
+                <div class="results__accordion">
+                    <!-- 2023 -->
+                    <div class="accordion__item" data-aos="fade-up">
+                        <button class="accordion__header">
+                            <span class="accordion__year">2023 год</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion__content">
+                            <h4>Участники:</h4>
+                            <ul>
+                                <li>Театр-студия «ТеаТРолли», рук. Наталия Франкова, г. Москва со спектаклем «Три клятвы или Дворовое сокровище» по пьесе Валерия Бегунова</li>
+                                <li>Театральная студия «Первые роли» МОУ Раменская СШО 19, рук. Валерия Дворцова со спектаклем «Грустный телевизор»</li>
+                                <li>«Студия юного творчества», рук. Наталья Чернявская, г. Москва со спектаклем «Зеркальный боб»</li>
+                            </ul>
+                            
+                            <h4>Победители:</h4>
+                            <ul class="winners-list">
+                                <li><i class="fas fa-trophy"></i> <strong>Лучший спектакль:</strong> Театр-студия «ТеаТРолли» — «Три клятвы или Дворовое сокровище»</li>
+                                <li><i class="fas fa-palette"></i> <strong>Лучшая импровизация:</strong> Театральная студия «Первые роли» — «Грустный телевизор»</li>
+                                <li><i class="fas fa-star"></i> <strong>Лучший исполнитель:</strong> Иван Левков («Студия юного творчества») за роль Ромки</li>
+                                <li><i class="fas fa-heart"></i> <strong>Приз зрительских симпатий:</strong> «Студия юного творчества» — «Зеркальный боб»</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 2022 -->
+                    <div class="accordion__item" data-aos="fade-up">
+                        <button class="accordion__header">
+                            <span class="accordion__year">2022 год</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion__content">
+                            <h4>Участники:</h4>
+                            <ul>
+                                <li>Театр-студия "ТеаТРолли" под руководством Наталии Франковой, г. Москва со спектаклем "Грустный телевизор"</li>
+                                <li>Детский театральный коллектив "Забава", рук. Татьяна Кулакова, г. Москва со спектаклем-импровизацией "Счастливая встреча"</li>
+                                <li>Школьный театр "На Федосьино", ГБОУ школы 1467 г. Москва под рук. Михаила Рожкова со спектаклем "Грустный телевизор"</li>
+                                <li>Детский театральный коллектив "ДЖЕМ" под рук. Елены Казовской с фантазией "Часы Тота"</li>
+                            </ul>
+                            
+                            <h4>Победители:</h4>
+                            <ul class="winners-list">
+                                <li><i class="fas fa-trophy"></i> <strong>Лучший спектакль:</strong> театр-студия "ТеаТРолли" — "Грустный телевизор"</li>
+                                <li><i class="fas fa-palette"></i> <strong>Лучшая импровизация:</strong> детский театральный коллектив "Забава" — "Счастливая встреча"</li>
+                                <li><i class="fas fa-heart"></i> <strong>Приз зрительских симпатий:</strong> театр-студия "ТеаТРолли" — "Грустный телевизор"</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 2021 -->
+                    <div class="accordion__item" data-aos="fade-up">
+                        <button class="accordion__header">
+                            <span class="accordion__year">2021 год</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion__content">
+                            <h4>Участники:</h4>
+                            <ul>
+                                <li>Молодёжный театральный коллектив "Тёплый театр", рук. Наталия Франкова, г. Москва со спектаклем "Часы Тота"</li>
+                                <li>Детский театральный коллектив "Забава", рук. Татьяна Кулакова г. Москва со спектаклем-импровизацией "Счастливая встреча"</li>
+                                <li>Кукольный театр-студия "Превращение" под рук. Лейлы Сидоровой с фантазией "Часы Тота"</li>
+                                <li>Детский театральный коллектив "ДЖЕМ" под рук. Елены Казовской со спектаклем "Мы снимаем кино"</li>
+                            </ul>
+                            
+                            <h4>Победители:</h4>
+                            <ul class="winners-list">
+                                <li><i class="fas fa-trophy"></i> <strong>Лучший спектакль:</strong> Молодёжный театральный коллектив "Тёплый театр" — "Часы Тота"</li>
+                                <li><i class="fas fa-palette"></i> <strong>Лучшая импровизация:</strong> три коллектива — "Забава", "Превращение" и "ДЖЕМ"</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 2020 -->
+                    <div class="accordion__item" data-aos="fade-up">
+                        <button class="accordion__header">
+                            <span class="accordion__year">2020 год (аудиоспектакли)</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion__content">
+                            <h4>Победители:</h4>
+                            <ul class="winners-list">
+                                <li><i class="fas fa-trophy"></i> <strong>Лучший аудиоспектакль:</strong> Студия Юного Творчества (рук. Наталья Чернявская) — "Грустный телевизор"</li>
+                                <li><i class="fas fa-star"></i> <strong>Лучший исполнитель:</strong> актеры театра-студии "ТеаТРолли" за чтение рассказов</li>
+                                <li><i class="fas fa-palette"></i> <strong>Лучшая аудио импровизация:</strong> театральный коллектив "Забава" — "Часы Тота"</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <!-- 2019 -->
+                    <div class="accordion__item" data-aos="fade-up">
+                        <button class="accordion__header">
+                            <span class="accordion__year">2019 год</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="accordion__content">
+                            <h4>Участники:</h4>
+                            <ul>
+                                <li>Театр-студия "Театролли", рук. Наталия Франкова, г. Москва с пьесой-фантазией "Ромка из племени чёрных котов"</li>
+                                <li>Театр "Синяя птица" парка Сокольники, рук. Татьяна Аксюта, г Москва с пьесой "Ромка и кино"</li>
+                                <li>Студия юного творчества, рук. Наталья Чернявская, г. Москва с пьесой "Грустный телевизор"</li>
+                                <li>Театральная студия ДК с. Косяково "Маска", рук. Андрей Стеклов, Московская область с пьесой "Грустный телевизор"</li>
+                            </ul>
+                            
+                            <h4>Победители:</h4>
+                            <ul class="winners-list">
+                                <li><i class="fas fa-trophy"></i> <strong>Лучший спектакль:</strong> Студия Юного Творчества — "Грустный телевизор"</li>
+                                <li><i class="fas fa-star"></i> <strong>Лучший исполнитель:</strong> Павел Рудницкий за роль Била</li>
+                                <li><i class="fas fa-heart"></i> <strong>Приз зрительских симпатий:</strong> Театр-студия "Театролли" — "Ромка из племени чёрных котов"</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Sofia Agacher -->
+        <section class="sofia section" id="sofia">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">О Софии Агачер</h2>
+                <div class="sofia__content">
+                    <div class="sofia__text" data-aos="fade-right">
+                        <p class="sofia__intro">
+                            <strong>София Агачер</strong> (Елена Васильевна Клименкова) — врач, писательница, член Московской организации Союза Писателей России с 2019 года.
+                        </p>
+                        
+                        <p>Родилась в г. Гомеле Белорусской ССР. Окончила с отличием Минский медицинский институт, аспирантуру 1-го Московского медицинского института им. Сеченова, защитила диссертацию по специальности «Анестезиология и реаниматология».</p>
+                        
+                        <div class="sofia__role">
+                            <i class="fas fa-crown"></i>
+                            <p><strong>Автор идеи и Президент фестиваля «Живая книга»</strong></p>
+                        </div>
+                        
+                        <h3>Литературная деятельность</h3>
+                        <p>Начала писать в 2013 году. Автор книг для семейного чтения, романов, пьес и сценариев. Рассказы опубликованы в ведущих литературных журналах России.</p>
+                        
+                        <h3>Организаторская деятельность</h3>
+                        <ul class="sofia__list">
+                            <li>Автор и организатор Международного конкурса короткого семейного рассказа «Мы и наши маленькие волшебники!»</li>
+                            <li>Автор и организатор Международного фестиваля детских (школьных) театральных коллективов «Живая книга»</li>
+                        </ul>
+                        
+                        <h3>Награды</h3>
+                        <ul class="sofia__awards">
+                            <li><i class="fas fa-medal"></i> Роман «Исцеление мира. Журнал Рыси и Нэта» — лауреат Национальной литературной премии имени Д. А. Гранина (2025)</li>
+                            <li><i class="fas fa-medal"></i> Роман «Исцеление мира» — серебряная медаль Германского международного конкурса «Лучшая книга года» (2025)</li>
+                            <li><i class="fas fa-medal"></i> Роман «Твоими глазами» — серебряная медаль Германского конкурса (2020)</li>
+                            <li><i class="fas fa-medal"></i> Роман «Путешествие внутри себя» — бронзовая медаль Германского конкурса (2021)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Organizers -->
+        <section class="organizers section">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Организаторы и партнёры</h2>
+                <div class="organizers__content">
+                    <div class="organizers__main" data-aos="fade-up">
+                        <h3>Организаторы фестиваля</h3>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Фонд «Живая книга»</li>
+                            <li><i class="fas fa-check-circle"></i> София Агачер</li>
+                            <li><i class="fas fa-check-circle"></i> Московский Дом Книги на Арбате</li>
+                            <li><i class="fas fa-check-circle"></i> Радио «Антология»</li>
+                            <li><i class="fas fa-check-circle"></i> Детское издание «Классный журнал»</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="organizers__sponsors" data-aos="fade-up" data-aos-delay="200">
+                        <h3>Информационные спонсоры</h3>
+                        <ul>
+                            <li><i class="fas fa-newspaper"></i> Журнал «ДрамТеатр»</li>
+                            <li><i class="fas fa-newspaper"></i> Журнал «Книжная индустрия»</li>
+                            <li><i class="fas fa-newspaper"></i> Журнал «Читаем вместе»</li>
+                            <li><i class="fas fa-newspaper"></i> Журнал «Вторник»</li>
+                            <li><i class="fas fa-newspaper"></i> Журнал «Классный журнал»</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contacts -->
+        <section class="contacts section" id="contacts">
+            <div class="container">
+                <h2 class="section__title" data-aos="fade-up">Контакты</h2>
+                <div class="contacts__content" data-aos="fade-up" data-aos-delay="100">
+                    <div class="contact-card">
+                        <div class="contact-card__icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email для заявок</h3>
+                        <a href="mailto:info@agacher.com">info@agacher.com</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-card__icon">
+                            <i class="fab fa-vk"></i>
+                        </div>
+                        <h3>Мы в VK</h3>
+                        <a href="https://vk.com/jivayaknigafond" target="_blank" rel="noopener">vk.com/jivayaknigafond</a>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-card__icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Официальный сайт</h3>
+                        <a href="https://agacher.com/konkursi-festival-jivaya-kniga" target="_blank" rel="noopener">agacher.com</a>
+                    </div>
+                </div>
+                
+                <div class="cta-section" data-aos="zoom-in" data-aos-delay="200">
+                    <h3>Присылайте свои заявки!</h3>
+                    <p>Мы ждём их, и удачи нам всем!</p>
+                    <a href="mailto:info@agacher.com" class="btn btn-primary btn-large">
+                        <i class="fas fa-paper-plane"></i> Написать нам
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="images/logo-festival.png" alt="Логотип фестиваля Живая книга">
+                    <p class="footer__tagline">«Живая книга» им. В.К. Бегунова</p>
+                </div>
+                
+                <div class="footer__nav">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="#home">Главная</a></li>
+                        <li><a href="#about">О фестивале</a></li>
+                        <li><a href="#nominations">Номинации</a></li>
+                        <li><a href="#participate">Участие</a></li>
+                        <li><a href="#results">Итоги</a></li>
+                        <li><a href="#sofia">О Софии Агачер</a></li>
+                        <li><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer__social">
+                    <h4>Мы в социальных сетях</h4>
+                    <div class="social-links">
+                        <a href="https://vk.com/jivayaknigafond" target="_blank" rel="noopener" aria-label="VK">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                    </div>
+                    <div class="footer__contact">
+                        <a href="mailto:info@agacher.com"><i class="fas fa-envelope"></i> info@agacher.com</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p>&copy; 2018-2024 Фестиваль «Живая книга» им. В.К. Бегунова. Все права защищены.</p>
+                <p>Создано с любовью к детскому театру</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scroll-top" aria-label="Наверх">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- AOS Library for animations -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
