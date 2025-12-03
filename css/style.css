@@ -248,6 +248,12 @@ img {
     overflow: hidden;
 }
 
+.hero__logo {
+    max-width: 300px;
+    margin: 0 auto 2rem;
+    display: block;
+}
+
 .hero__decoration {
     position: absolute;
     top: -50%;
