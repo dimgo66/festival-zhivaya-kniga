@@ -946,6 +946,9 @@ img {
 .contact-card a {
     color: var(--primary-color);
     font-weight: 600;
+    text-align: center;
+    display: block;
+    width: 100%;
 }
 
 .contact-card a:hover {
